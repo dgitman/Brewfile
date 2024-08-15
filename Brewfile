@@ -3,6 +3,7 @@ tap "homebrew/autoupdate"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "jostasik/tap"
 tap "shopify/shopify"
 # Official Amazon AWS command-line interface
 brew "awscli"
@@ -66,6 +67,8 @@ cask "creality-slicer"
 cask "discord"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Eclipse IDE for Java developers
+cask "eclipse-java"
 # Calendar software
 cask "fantastical"
 # Collaborative team software
@@ -82,6 +85,8 @@ cask "google-drive"
 cask "grammarly-desktop"
 # iPhone management application
 cask "imazing"
+# Flowchart Programming Language
+cask "jostasik-flowgorithm"
 # Spot and merge differences in text and image files or folders
 cask "kaleidoscope"
 # Interface for reading and syncing eBooks
@@ -142,14 +147,6 @@ cask "warp"
 cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "1Password for Safari", id: 1569813296
-mas "AwardWallet", id: 1473828829
-mas "Awesome Screenshot & Recorder", id: 1531282066
-mas "CardPointers", id: 1472875808
-mas "Grammarly for Safari", id: 1462114288
-mas "Notion Web Clipper", id: 1559269364
-mas "PayPal Honey", id: 1472777122
-mas "Wayback Machine", id: 1472432422
 vscode "charliermarsh.ruff"
 vscode "github.copilot"
 vscode "github.copilot-chat"
@@ -157,4 +154,5 @@ vscode "github.vscode-github-actions"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "parallelsdesktop.parallels-desktop"
 vscode "zainchen.json"

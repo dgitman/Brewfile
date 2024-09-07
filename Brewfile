@@ -1,3 +1,4 @@
+tap "adoptopenjdk/openjdk"
 tap "buo/cask-upgrade"
 tap "homebrew/autoupdate"
 tap "homebrew/bundle"
@@ -7,10 +8,14 @@ tap "jostasik/tap"
 tap "shopify/shopify"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Emacs dependency management
 brew "cask"
 # Identify or delete duplicate files
 brew "fdupes"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -27,8 +32,6 @@ brew "mas"
 brew "nmap"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Monitor data's progress through a pipe
@@ -63,6 +66,8 @@ cask "cardhop"
 cask "chatgpt"
 # Slicer for all Creality FDM 3D printers
 cask "creality-slicer"
+# Write, edit, and chat about your code with AI
+cask "cursor"
 # Voice and text chat software
 cask "discord"
 # Client for the Dropbox cloud storage service
@@ -147,6 +152,15 @@ cask "warp"
 cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "1Password for Safari", id: 1569813296
+mas "AwardWallet", id: 1473828829
+mas "Awesome Screenshot & Recorder", id: 1531282066
+mas "CardPointers", id: 1472875808
+mas "CleanMyMac X", id: 1339170533
+mas "Grammarly for Safari", id: 1462114288
+mas "Notion Web Clipper", id: 1559269364
+mas "PayPal Honey", id: 1472777122
+mas "Wayback Machine", id: 1472432422
 vscode "charliermarsh.ruff"
 vscode "github.copilot"
 vscode "github.copilot-chat"

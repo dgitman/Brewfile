@@ -2,14 +2,13 @@ tap "adoptopenjdk/openjdk"
 tap "buo/cask-upgrade"
 tap "homebrew/autoupdate"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "jostasik/tap"
 tap "shopify/shopify"
-# Official Amazon AWS command-line interface
-brew "awscli"
+tap "wpscanteam/tap"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Emacs dependency management
 brew "cask"
 # Identify or delete duplicate files
@@ -46,8 +45,6 @@ brew "thefuck"
 brew "watch"
 # Internet file retriever
 brew "wget"
-# WordPress security scanner
-brew "wpscan"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
 # Additional completion definitions for zsh
@@ -56,6 +53,8 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 # A CLI tool to build for the Shopify platform
 brew "shopify/shopify/shopify-cli"
+# Black box WordPress vulnerability scanner
+brew "wpscanteam/tap/wpscan"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Menu bar icon organiser
@@ -156,7 +155,7 @@ mas "1Password for Safari", id: 1569813296
 mas "AwardWallet", id: 1473828829
 mas "Awesome Screenshot & Recorder", id: 1531282066
 mas "CardPointers", id: 1472875808
-mas "CleanMyMac X", id: 1339170533
+mas "CleanMyMac", id: 1339170533
 mas "Grammarly for Safari", id: 1462114288
 mas "Notion Web Clipper", id: 1559269364
 mas "PayPal Honey", id: 1472777122

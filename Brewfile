@@ -33,6 +33,8 @@ brew "nmap"
 brew "pinentry-mac"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
 # Monitor data's progress through a pipe
 brew "pv"
 # Rsync for cloud storage
@@ -159,6 +161,7 @@ mas "CleanMyMac", id: 1339170533
 mas "Grammarly for Safari", id: 1462114288
 mas "Notion Web Clipper", id: 1559269364
 mas "PayPal Honey", id: 1472777122
+mas "Speechify", id: 1624912180
 mas "Wayback Machine", id: 1472432422
 vscode "charliermarsh.ruff"
 vscode "github.copilot"

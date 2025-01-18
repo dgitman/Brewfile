@@ -135,6 +135,8 @@ cask "slack"
 cask "spotify"
 # System monitor for the menu bar
 cask "stats"
+# Remote access and connectivity software focused on security
+cask "teamviewer"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Open-source BitTorrent client

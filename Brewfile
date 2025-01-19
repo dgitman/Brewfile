@@ -161,8 +161,10 @@ mas "Awesome Screenshot & Recorder", id: 1531282066
 mas "CardPointers", id: 1472875808
 mas "CleanMyMac", id: 1339170533
 mas "Grammarly for Safari", id: 1462114288
+mas "Magnet", id: 441258766
 mas "Notion Web Clipper", id: 1559269364
 mas "PayPal Honey", id: 1472777122
+mas "Prime Video", id: 545519333
 mas "Speechify", id: 1624912180
 mas "Wayback Machine", id: 1472432422
 vscode "charliermarsh.ruff"

@@ -95,8 +95,6 @@ cask "imazing"
 cask "jostasik-flowgorithm"
 # Spot and merge differences in text and image files or folders
 cask "kaleidoscope"
-# Interface for reading and syncing eBooks
-cask "kindle"
 # Native desktop app for Messenger (formerly Facebook Messenger)
 cask "messenger"
 # Provides updates to various Microsoft products
@@ -161,6 +159,7 @@ mas "Awesome Screenshot & Recorder", id: 1531282066
 mas "CardPointers", id: 1472875808
 mas "CleanMyMac", id: 1339170533
 mas "Grammarly for Safari", id: 1462114288
+mas "Kindle", id: 302584613
 mas "Magnet", id: 441258766
 mas "Notion Web Clipper", id: 1559269364
 mas "PayPal Honey", id: 1472777122

@@ -5,8 +5,6 @@ tap "homebrew/bundle"
 tap "jostasik/tap"
 tap "shopify/shopify"
 tap "wpscanteam/tap"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Emacs dependency management
@@ -21,6 +19,8 @@ brew "gh"
 brew "git"
 # Improved top (interactive process viewer)
 brew "htop"
+# Website copier/offline browser
+brew "httrack"
 # Command-line tool to export and inspect local iMessage database
 brew "imessage-exporter"
 # Lightweight and flexible command-line JSON processor
@@ -37,6 +37,8 @@ brew "pipx"
 brew "pkgconf"
 # Monitor data's progress through a pipe
 brew "pv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Rsync for cloud storage
 brew "rclone"
 # Command-line interface for https://speedtest.net bandwidth tests
@@ -65,6 +67,8 @@ cask "bartender"
 cask "cardhop"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # Slicer for all Creality FDM 3D printers
 cask "creality-slicer"
 # Write, edit, and chat about your code with AI
@@ -79,20 +83,18 @@ cask "eclipse-java"
 cask "fantastical"
 # Collaborative team software
 cask "figma"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser
 cask "google-chrome"
-# Set of tools to manage resources and applications hosted on Google Cloud
-cask "google-cloud-sdk"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Grammarly for desktop
 cask "grammarly-desktop"
 # iPhone management application
 cask "imazing"
-# Flowchart Programming Language
-cask "jostasik-flowgorithm"
 # Spot and merge differences in text and image files or folders
 cask "kaleidoscope"
 # Native desktop app for Messenger (formerly Facebook Messenger)
@@ -113,8 +115,6 @@ cask "microsoft-word"
 cask "mimestream"
 # Tool to control external monitor brightness & volume
 cask "monitorcontrol"
-# VPN client for secure internet access and private browsing
-cask "nordvpn"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Calendar for professionals and teams
@@ -145,8 +145,6 @@ cask "transmit"
 cask "ultimaker-cura"
 # Calling and messaging application focusing on security
 cask "viber"
-# Open-source code editor
-cask "visual-studio-code"
 # Rust-based terminal
 cask "warp"
 # Native desktop client for WhatsApp

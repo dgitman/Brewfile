@@ -11,7 +11,7 @@ brew "awscli"
 brew "cask"
 # Identify or delete duplicate files
 brew "fdupes"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"

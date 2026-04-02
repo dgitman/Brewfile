@@ -27,6 +27,8 @@ brew "imessage-exporter"
 brew "jq"
 # Mac App Store command-line interface
 brew "mas"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Port scanning utility for large networks
 brew "nmap"
 # Pinentry for GPG on Mac
@@ -67,10 +69,10 @@ cask "bartender"
 cask "cardhop"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# OpenAI's official browser with ChatGPT built in
+cask "chatgpt-atlas"
 # Anthropic's official Claude AI desktop app
 cask "claude"
-# Private rolodex to remember people better
-cask "clay"
 # Slicer for all Creality FDM 3D printers
 cask "creality-slicer"
 # Write, edit, and chat about your code with AI
@@ -95,10 +97,16 @@ cask "google-chrome"
 cask "google-drive"
 # Grammarly for desktop
 cask "grammarly-desktop"
+# Open-source video transcoder
+cask "handbrake-app"
 # iPhone management application
 cask "imazing"
 # Spot and merge differences in text and image files or folders
 cask "kaleidoscope"
+# Video format converter (transcoder)
+cask "makemkv"
+# Private rolodex to remember people better
+cask "mesh"
 # Native desktop app for Messenger (formerly Facebook Messenger)
 cask "messenger"
 # Provides updates to various Microsoft products
@@ -155,12 +163,10 @@ cask "whatsapp"
 cask "zoom"
 mas "1Password for Safari", id: 1569813296
 mas "AwardWallet", id: 1473828829
-mas "Awesome Screenshot & Recorder", id: 1531282066
 mas "CardPointers", id: 1472875808
 mas "Clay for Safari", id: 6745995785
 mas "CleanMyMac", id: 1339170533
 mas "Grammarly for Safari", id: 1462114288
-mas "Kindle", id: 302584613
 mas "Magnet", id: 441258766
 mas "Notion Web Clipper", id: 1559269364
 mas "PayPal Honey", id: 1472777122

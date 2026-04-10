@@ -63,6 +63,10 @@ brew "shopify/shopify/shopify-cli"
 brew "wpscanteam/tap/wpscan"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Command-line interface for 1Password
+cask "1password-cli"
+# Application uninstaller
+cask "appcleaner"
 # Menu bar icon organiser
 cask "bartender"
 # Contacts manager
@@ -73,12 +77,18 @@ cask "chatgpt"
 cask "chatgpt-atlas"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Slicer for all Creality FDM 3D printers
 cask "creality-slicer"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Eclipse IDE for Java developers
@@ -87,8 +97,12 @@ cask "eclipse-java"
 cask "fantastical"
 # Collaborative team software
 cask "figma"
+# Fujitsu ScanSnap Scanner software
+cask "fujitsu-scansnap-home"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "gcloud-cli"
+# Disk space cleaner that finds and deletes duplicated and similar files
+cask "gemini"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser
@@ -103,24 +117,22 @@ cask "handbrake-app"
 cask "imazing"
 # Spot and merge differences in text and image files or folders
 cask "kaleidoscope"
+# Open-source Markdown editor
+cask "macdown"
 # Video format converter (transcoder)
 cask "makemkv"
+# Shows the next meeting in the menu bar
+cask "meetingbar"
 # Private rolodex to remember people better
 cask "mesh"
 # Native desktop app for Messenger (formerly Facebook Messenger)
 cask "messenger"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
-# Spreadsheet software
-cask "microsoft-excel"
-# Email client
-cask "microsoft-outlook"
-# Presentation software
-cask "microsoft-powerpoint"
+# Office suite
+cask "microsoft-office"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
-# Word processor
-cask "microsoft-word"
 # Native app email client for Gmail
 cask "mimestream"
 # Tool to control external monitor brightness & volume
@@ -129,8 +141,12 @@ cask "monitorcontrol"
 cask "notion"
 # Calendar for professionals and teams
 cask "notion-calendar"
-# Cloud storage client
-cask "onedrive"
+# Personal AI assistant
+cask "openclaw"
+# Collaboration platform for API development
+cask "postman"
+# Client for Proton Mail and Proton Calendar
+cask "proton-mail"
 # Imaging utility to install operating systems to a microSD card
 cask "raspberry-pi-imager"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -139,10 +155,14 @@ cask "rectangle"
 cask "signal"
 # Team communication and collaboration software
 cask "slack"
+# Control your Sonos system
+cask "sonos"
 # Music streaming service
 cask "spotify"
 # System monitor for the menu bar
 cask "stats"
+# Video game digital distribution service
+cask "steam"
 # Remote access and connectivity software focused on security
 cask "teamviewer"
 # Messaging app with a focus on speed and security
@@ -155,10 +175,16 @@ cask "transmit"
 cask "ultimaker-cura"
 # Calling and messaging application focusing on security
 cask "viber"
+# Open-source code editor
+cask "visual-studio-code"
 # Rust-based terminal
 cask "warp"
 # Native desktop client for WhatsApp
 cask "whatsapp"
+# Network protocol analyzer
+cask "wireshark-app"
+# Voice-to-text dictation with AI-powered auto-editing
+cask "wispr-flow"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "1Password for Safari", id: 1569813296

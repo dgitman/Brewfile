@@ -189,10 +189,11 @@ cask "wispr-flow"
 cask "zoom"
 mas "1Password for Safari", id: 1569813296
 mas "AwardWallet", id: 1473828829
-mas "CardPointers", id: 1472875808
+mas "Awesome Screenshot & Recorder", id: 1531282066
 mas "Clay for Safari", id: 6745995785
 mas "CleanMyMac", id: 1339170533
 mas "Grammarly for Safari", id: 1462114288
+mas "Kindle", id: 302584613
 mas "Magnet", id: 441258766
 mas "Notion Web Clipper", id: 1559269364
 mas "PayPal Honey", id: 1472777122

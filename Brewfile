@@ -101,8 +101,6 @@ cask "figma"
 cask "fujitsu-scansnap-home"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "gcloud-cli"
-# Disk space cleaner that finds and deletes duplicated and similar files
-cask "gemini"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser
@@ -201,11 +199,12 @@ mas "Prime Video", id: 545519333
 mas "Speechify", id: 1624912180
 mas "Wayback Machine", id: 1472432422
 vscode "charliermarsh.ruff"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "openai.chatgpt"
 vscode "parallelsdesktop.parallels-desktop"
 vscode "zainchen.json"

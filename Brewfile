@@ -2,6 +2,8 @@ tap "adoptopenjdk/openjdk"
 tap "buo/cask-upgrade"
 tap "homebrew/autoupdate"
 tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
 tap "jostasik/tap"
 tap "shopify/shopify"
 tap "wpscanteam/tap"
@@ -139,6 +141,8 @@ cask "monitorcontrol"
 cask "notion"
 # Calendar for professionals and teams
 cask "notion-calendar"
+# Verify system files structure, run miscellaneous maintenance and more
+cask "onyx"
 # Personal AI assistant
 cask "openclaw"
 # Collaboration platform for API development
@@ -149,6 +153,8 @@ cask "proton-mail"
 cask "raspberry-pi-imager"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Client for the Progress ShareFile storage service
+cask "sharefile"
 # Instant messaging application focusing on security
 cask "signal"
 # Team communication and collaboration software
@@ -199,12 +205,10 @@ mas "Prime Video", id: 545519333
 mas "Speechify", id: 1624912180
 mas "Wayback Machine", id: 1472432422
 vscode "charliermarsh.ruff"
-vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
 vscode "openai.chatgpt"
-vscode "parallelsdesktop.parallels-desktop"
 vscode "zainchen.json"

@@ -5,6 +5,8 @@ tap "homebrew/bundle"
 tap "jostasik/tap"
 tap "shopify/shopify"
 tap "wpscanteam/tap"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Emacs dependency management
@@ -27,8 +29,6 @@ brew "imessage-exporter"
 brew "jq"
 # Mac App Store command-line interface
 brew "mas"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # Port scanning utility for large networks
 brew "nmap"
 # Pinentry for GPG on Mac

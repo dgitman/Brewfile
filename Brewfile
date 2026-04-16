@@ -67,12 +67,8 @@ brew "wpscanteam/tap/wpscan"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
-# Application uninstaller
-cask "appcleaner"
 # Menu bar icon organiser
 cask "bartender"
-# Contacts manager
-cask "cardhop"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # OpenAI's official browser with ChatGPT built in
@@ -97,8 +93,6 @@ cask "docker-desktop"
 cask "dropbox"
 # Eclipse IDE for Java developers
 cask "eclipse-java"
-# Calendar software
-cask "fantastical"
 # Collaborative team software
 cask "figma"
 # Fujitsu ScanSnap Scanner software

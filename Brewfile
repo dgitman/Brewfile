@@ -81,6 +81,8 @@ cask "chatgpt-atlas"
 cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
+# Tool to remove unnecessary files and folders from disk
+cask "cleanmymac"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Slicer for all Creality FDM 3D printers

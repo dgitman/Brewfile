@@ -67,6 +67,8 @@ brew "wpscanteam/tap/wpscan"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# Application uninstaller
+cask "appcleaner"
 # Menu bar icon organiser
 cask "bartender"
 # OpenAI's official ChatGPT desktop app
@@ -196,10 +198,12 @@ mas "Kindle", id: 302584613
 mas "Magnet", id: 441258766
 mas "Notion Web Clipper", id: 1559269364
 mas "PayPal Honey", id: 1472777122
+mas "Perplexity", id: 6714467650
 mas "Prime Video", id: 545519333
 mas "Speechify", id: 1624912180
 mas "Wayback Machine", id: 1472432422
 vscode "charliermarsh.ruff"
+vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"

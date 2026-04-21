@@ -107,6 +107,8 @@ cask "github"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Native desktop AI assistant from Google
+cask "google-gemini"
 # Grammarly for desktop
 cask "grammarly-desktop"
 # Open-source video transcoder
@@ -123,8 +125,6 @@ cask "makemkv"
 cask "meetingbar"
 # Private rolodex to remember people better
 cask "mesh"
-# Native desktop app for Messenger (formerly Facebook Messenger)
-cask "messenger"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Office suite
@@ -205,9 +205,11 @@ mas "Wayback Machine", id: 1472432422
 vscode "charliermarsh.ruff"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
+vscode "ms-vscode-remote.remote-containers"
 vscode "openai.chatgpt"
 vscode "zainchen.json"

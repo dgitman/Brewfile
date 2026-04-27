@@ -24,7 +24,7 @@ def has_staged_changes() -> bool:
 
 def main() -> None:
     run("brew", "bundle", "dump", "--describe", "--file", str(BREWFILE_PATH), "-f")
-    run("git", "add", "Brewfile", "Brewfile.lock.json")
+    run("git", "add", "Brewfile")
 
     if not has_staged_changes():
         print("Brewfile is already up to date.")

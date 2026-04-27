@@ -1,4 +1,8 @@
 #!/bin/bash
+set -euo pipefail
+
+BREWFILE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BREWFILE_PATH="$BREWFILE_DIR/Brewfile"
 
 which -s brew
 if [[ $? != 0 ]] ; then
@@ -8,4 +12,4 @@ else
     brew update
 fi
 
-brew bundle --file Brewfile
+brew bundle --file "$BREWFILE_PATH"

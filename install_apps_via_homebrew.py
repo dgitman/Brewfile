@@ -58,7 +58,15 @@ def main() -> None:
     else:
         brew = install_homebrew()
 
-    run(brew, "bundle", "--file", str(BREWFILE_PATH))
+    check = subprocess.run(
+        (brew, "bundle", "check", "--file", str(BREWFILE_PATH)),
+        cwd=SCRIPT_DIR,
+        check=False,
+    )
+    if check.returncode == 0:
+        return
+
+    run(brew, "bundle", "install", "--file", str(BREWFILE_PATH))
 
 
 if __name__ == "__main__":
